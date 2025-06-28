@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="{{ asset('assets/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('assets/bootstrap.min.css') }}">
     <style>
         body {
-            background: url('{{ asset('labuan bajo.jpg') }}') no-repeat center center fixed;
+            background: url('{{ secure_asset('labuan bajo.jpg') }}') no-repeat center center fixed;
             background-size: cover;
         }
         .bg-overlay {
@@ -67,7 +67,7 @@
         </form>
     </div>
 
-    <script src="{{ asset('assets/jquery-3.6.1.js') }}"></script>
-    <script src="{{ asset('assets/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/jquery-3.6.1.js') }}"></script>
+    <script src="{{ secure_asset('assets/bootstrap.min.js') }}"></script>
 </body>
 </html>
